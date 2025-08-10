@@ -1,14 +1,14 @@
 # Basic Pong Game
 
-A simple implementation of the classic Pong game using JavaScript, HTML, and CSS. This project demonstrates fundamental web game development concepts such as rendering, keyboard controls, collision detection, and score tracking. It’s perfect for beginners or anyone looking for a nostalgic coding project.
+A simple implementation of the classic Pong game using JavaScript, HTML, and CSS. This project demonstrates fundamental web game development concepts such as rendering, keyboard/mouse/touch controls, collision detection, and score tracking. It’s perfect for beginners or anyone looking for a nostalgic coding project.
 
 ## Features
 
-- Classic two-player Pong gameplay
+- Classic single-player Pong vs AI
 - Smooth paddle and ball movement
-- Real-time score tracking
-- Responsive design for desktop browsers
-- Easy to customize and extend
+- Real-time score tracking with scoreboard
+- Mouse, keyboard (W/S or Up/Down), and touch controls
+- Responsive-friendly meta viewport for mobile
 
 ## Getting Started
 
@@ -21,12 +21,12 @@ A simple implementation of the classic Pong game using JavaScript, HTML, and CSS
 
 1. Clone or download this repository.
 2. Open `index.html` in your web browser.
-3. Use the keyboard controls to move your paddle and compete against the other player.
+3. Move your paddle using mouse, touch, or keyboard to bounce the ball and score.
 
 ### Controls
 
-- **Player 1:** W (up), S (down)
-- **Player 2:** Arrow Up (up), Arrow Down (down)
+- **Mouse/Touch**: Move pointer/finger vertically over the canvas
+- **Keyboard**: W / Arrow Up (up), S / Arrow Down (down)
 
 ## Project Structure
 
@@ -36,9 +36,19 @@ A simple implementation of the classic Pong game using JavaScript, HTML, and CSS
 ├── script.js       # Game logic
 ```
 
+## Deploying to GitHub Pages
+
+This is a static site. You can deploy via GitHub Pages:
+
+- Commit and push to the `main` (or `master`) branch
+- In the repository settings, enable GitHub Pages and select the branch + root folder
+- The site will be available at your GitHub Pages URL (e.g., `https://<username>.github.io/<repo>/`)
+
+No special `homepage` or base path adjustments are required because all asset paths are relative (`style.css`, `script.js`).
+
 ## Customization
 
-Feel free to modify paddle speed, ball size, or add features such as sound effects or a single-player mode with AI.
+Feel free to modify paddle speed, ball size, or add features such as sound effects or a difficulty selector.
 
 ## License
 
